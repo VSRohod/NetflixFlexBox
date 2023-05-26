@@ -1,0 +1,7 @@
+#banner{
+    height: 600px;
+    background-image: url("../../images/posts/narcosBanner.png");
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
