@@ -95,3 +95,54 @@
 #sliderItem19{
     background-image: url("../../images/posts/comediansInCars.png");
 }
+
+.categories{
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.categoriesOptions{
+    width: auto;
+    height: 100%;
+    display: flex;
+    gap: 2px;
+    margin: 20px 20px;
+}
+
+.category{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#comedyCategory{
+    background-color: #d06aff;
+}
+
+#actionCategory{
+    background-color: #7052ff;
+}
+
+#dramaCategory{
+    background-color: #ffff51;
+    color: black;
+}
+
+#scifiCategory{
+    background-color: #68da3e;
+}
+
+#romanceCategory{
+    background-color: #ff7360;
+}
+
+#thrillerCategory{
+    background-color: #ff81ff;
+}
+
+#terrorCategory{
+    background-color: #7052ff;
+}
